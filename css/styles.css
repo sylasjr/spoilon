@@ -1,59 +1,59 @@
-/* line 15, ../scss/styles.scss */
+/* line 16, ../scss/styles.scss */
 body {
   font-family: Helvetica-neue,Helvetica,serif;
   color: #5a5046;
-  background: #2c3e50;
+  background: #424242;
 }
 
-/* line 22, ../scss/styles.scss */
+/* line 23, ../scss/styles.scss */
 section:nth-child(even) {
-  background: #3e5771;
+  background: #5c5c5c;
   margin: 30px 0;
   padding: 20px 0 50px 0;
 }
 
-/* line 28, ../scss/styles.scss */
+/* line 29, ../scss/styles.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: white;
 }
 
-/* line 34, ../scss/styles.scss */
+/* line 35, ../scss/styles.scss */
 h5, h6 {
   font-weight: 300;
 }
 
-/* line 38, ../scss/styles.scss */
+/* line 39, ../scss/styles.scss */
 h2 {
   margin-bottom: 15px;
 }
 
-/* line 42, ../scss/styles.scss */
+/* line 43, ../scss/styles.scss */
 .form-control {
   color: #999999;
 }
 
-/* line 47, ../scss/styles.scss */
+/* line 48, ../scss/styles.scss */
 article h1, article h3, article h4, article h5, article h6 {
   color: #5a5046;
 }
 
-/* line 156, ../scss/styles.scss */
+/* line 157, ../scss/styles.scss */
 .user {
   padding: 0;
   border-radius: 4px;
   background: white;
   margin-bottom: 20px;
 }
-/* line 53, ../scss/styles.scss */
+/* line 54, ../scss/styles.scss */
 .user .banner {
   background: #84786f;
   height: 140px;
   margin: 0;
   border-radius: 4px 4px 0 0;
 }
-/* line 59, ../scss/styles.scss */
+/* line 60, ../scss/styles.scss */
 .user .me img {
   border-radius: 50%;
   border: 2px solid #f6f1ed;
@@ -61,25 +61,25 @@ article h1, article h3, article h4, article h5, article h6 {
   width: 80px;
   height: 80px;
 }
-/* line 66, ../scss/styles.scss */
+/* line 67, ../scss/styles.scss */
 .user .about {
   padding-left: 20px;
 }
-/* line 68, ../scss/styles.scss */
+/* line 69, ../scss/styles.scss */
 .user .about .name {
   font-size: 25px;
   margin-bottom: 6px;
 }
-/* line 73, ../scss/styles.scss */
+/* line 74, ../scss/styles.scss */
 .user .main-profile {
   margin-top: 20px;
   display: block;
 }
-/* line 78, ../scss/styles.scss */
+/* line 79, ../scss/styles.scss */
 .user p {
   font-size: 13px;
 }
-/* line 81, ../scss/styles.scss */
+/* line 82, ../scss/styles.scss */
 .user .data {
   background: #f6f1ed;
   display: block;
@@ -88,17 +88,17 @@ article h1, article h3, article h4, article h5, article h6 {
   color: #b8aba1;
   border-radius: 0 0 4px 4px;
 }
-/* line 88, ../scss/styles.scss */
+/* line 89, ../scss/styles.scss */
 .user .data .fa {
   margin-right: 7px;
 }
-/* line 91, ../scss/styles.scss */
+/* line 92, ../scss/styles.scss */
 .user .data a {
   color: #b8aba1;
   padding: 0% 5%;
   transition: color 0.4s;
 }
-/* line 95, ../scss/styles.scss */
+/* line 96, ../scss/styles.scss */
 .user .data a:hover {
   color: #2ecc71;
   cursor: pointer;
@@ -106,120 +106,120 @@ article h1, article h3, article h4, article h5, article h6 {
   transition: color 0.4s;
 }
 
-/* line 107, ../scss/styles.scss */
+/* line 108, ../scss/styles.scss */
 .contacts .wrapper {
   padding: 20px 0 0;
   background: white;
   border-radius: 4px;
   overflow: hidden;
 }
-/* line 108, ../scss/styles.scss */
+/* line 109, ../scss/styles.scss */
 .contacts .wrapper p {
   margin: 0 0 20px;
 }
-/* line 115, ../scss/styles.scss */
+/* line 116, ../scss/styles.scss */
 .contacts .wrapper .content {
   padding: 0 20px;
 }
-/* line 119, ../scss/styles.scss */
+/* line 120, ../scss/styles.scss */
 .contacts .wrapper input {
   margin-bottom: 10px;
 }
-/* line 122, ../scss/styles.scss */
+/* line 123, ../scss/styles.scss */
 .contacts .wrapper footer {
   padding: 20px;
   background: #f6f1ed;
 }
-/* line 125, ../scss/styles.scss */
+/* line 126, ../scss/styles.scss */
 .contacts .wrapper footer span {
   font-size: 12px;
 }
-/* line 128, ../scss/styles.scss */
+/* line 129, ../scss/styles.scss */
 .contacts .wrapper footer .btn {
   background: #84786f;
   color: white;
 }
-/* line 132, ../scss/styles.scss */
+/* line 133, ../scss/styles.scss */
 .contacts .wrapper footer .btn:hover {
   background: #2ecc71;
   transition: background 2s;
 }
-/* line 136, ../scss/styles.scss */
+/* line 137, ../scss/styles.scss */
 .contacts .wrapper footer .fa {
   margin-right: 10px;
 }
-/* line 139, ../scss/styles.scss */
+/* line 140, ../scss/styles.scss */
 .contacts .wrapper footer .send-gift {
   margin: 0px 5px;
 }
-/* line 142, ../scss/styles.scss */
+/* line 143, ../scss/styles.scss */
 .contacts .wrapper footer .awesome {
   display: none;
 }
-/* line 144, ../scss/styles.scss */
+/* line 145, ../scss/styles.scss */
 .contacts .wrapper footer .awesome .fa {
   margin: 0px 5px;
   font-size: 17px;
   color: #2ecc71;
 }
 
-/* line 107, ../scss/styles.scss */
+/* line 108, ../scss/styles.scss */
 .pseudo .wrapper {
   padding: 20px 0 0;
   background: white;
   border-radius: 4px;
   overflow: hidden;
 }
-/* line 108, ../scss/styles.scss */
+/* line 109, ../scss/styles.scss */
 .pseudo .wrapper p {
   margin: 0 0 20px;
 }
-/* line 115, ../scss/styles.scss */
+/* line 116, ../scss/styles.scss */
 .pseudo .wrapper .content {
   padding: 0 20px;
 }
-/* line 119, ../scss/styles.scss */
+/* line 120, ../scss/styles.scss */
 .pseudo .wrapper input {
   margin-bottom: 10px;
 }
-/* line 122, ../scss/styles.scss */
+/* line 123, ../scss/styles.scss */
 .pseudo .wrapper footer {
   padding: 20px;
   background: #f6f1ed;
 }
-/* line 125, ../scss/styles.scss */
+/* line 126, ../scss/styles.scss */
 .pseudo .wrapper footer span {
   font-size: 12px;
 }
-/* line 128, ../scss/styles.scss */
+/* line 129, ../scss/styles.scss */
 .pseudo .wrapper footer .btn {
   background: #84786f;
   color: white;
 }
-/* line 132, ../scss/styles.scss */
+/* line 133, ../scss/styles.scss */
 .pseudo .wrapper footer .btn:hover {
   background: #2ecc71;
   transition: background 2s;
 }
-/* line 136, ../scss/styles.scss */
+/* line 137, ../scss/styles.scss */
 .pseudo .wrapper footer .fa {
   margin-right: 10px;
 }
-/* line 139, ../scss/styles.scss */
+/* line 140, ../scss/styles.scss */
 .pseudo .wrapper footer .send-gift {
   margin: 0px 5px;
 }
-/* line 142, ../scss/styles.scss */
+/* line 143, ../scss/styles.scss */
 .pseudo .wrapper footer .awesome {
   display: none;
 }
-/* line 144, ../scss/styles.scss */
+/* line 145, ../scss/styles.scss */
 .pseudo .wrapper footer .awesome .fa {
   margin: 0px 5px;
   font-size: 17px;
   color: #2ecc71;
 }
-/* line 172, ../scss/styles.scss */
+/* line 173, ../scss/styles.scss */
 .pseudo .first-letter:first-letter {
   color: #5a5046;
   font-size: 39px;
@@ -227,21 +227,21 @@ article h1, article h3, article h4, article h5, article h6 {
   float: left;
   margin: -5px 0 -18px;
 }
-/* line 179, ../scss/styles.scss */
+/* line 180, ../scss/styles.scss */
 .pseudo .first-line:first-line {
   font-weight: bold;
 }
-/* line 183, ../scss/styles.scss */
+/* line 184, ../scss/styles.scss */
 .pseudo .selection span {
   font-size: 16px;
   color: #5a5046;
 }
-/* line 188, ../scss/styles.scss */
+/* line 189, ../scss/styles.scss */
 .pseudo p.selection::selection {
   background: #5a5046;
   color: white;
 }
-/* line 192, ../scss/styles.scss */
+/* line 193, ../scss/styles.scss */
 .pseudo p.before:before {
   content: url("http://lorempixel.com/gray/60/50/nature/");
   float: left;
@@ -250,12 +250,12 @@ article h1, article h3, article h4, article h5, article h6 {
   height: 50px;
   width: 60px;
 }
-/* line 200, ../scss/styles.scss */
+/* line 201, ../scss/styles.scss */
 .pseudo ul.before {
   padding-left: 10px;
   margin: -13px 0 20px 13px;
 }
-/* line 204, ../scss/styles.scss */
+/* line 205, ../scss/styles.scss */
 .pseudo ul.before li:before {
   font-family: 'FontAwesome';
   content: '\f007';
@@ -264,7 +264,7 @@ article h1, article h3, article h4, article h5, article h6 {
   width: 1.3em;
   padding-right: 5px;
 }
-/* line 212, ../scss/styles.scss */
+/* line 213, ../scss/styles.scss */
 .pseudo .after:after {
   font-family: 'FontAwesome';
   content: '\f007';
@@ -273,12 +273,12 @@ article h1, article h3, article h4, article h5, article h6 {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (max-width: 1199px) {
-  /* line 234, ../scss/styles.scss */
+  /* line 235, ../scss/styles.scss */
   .user .name {
     text-align: center;
   }
 
-  /* line 238, ../scss/styles.scss */
+  /* line 239, ../scss/styles.scss */
   .user .me img {
     margin: auto;
     display: block;

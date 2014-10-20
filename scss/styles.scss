@@ -3,6 +3,7 @@ $green: #27ae60;
 $blue: #2C3E50;
 $orange: #E96B45;
 $brown: #84786f;
+$darkBrown: #6A4A3C;
 $inputColor: #999;
 $bkg: #fff;
 $bkgMain:#f39c12;
@@ -10,17 +11,17 @@ $bkgSubtle: #F6F1ED;
 $fontColor:#5A5046;
 $fontSubtle:#B8ABA1;
 $radius:4px;
-
+$mainBkg:#424242;
 
 body{
 	font-family:Helvetica-neue,Helvetica,serif;
 	color:$fontColor;
-	background: $blue;
+	background: $mainBkg;
 
 }
 
 section:nth-child(even){
-	background:lighten($blue,10%);
+	background:lighten($mainBkg,10%);
 	margin: 30px 0;
 	padding: 20px 0 50px 0;
 }
