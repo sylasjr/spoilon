@@ -1,0 +1,259 @@
+$green-light: #2ecc71; 
+$green: #27ae60;
+$blue: #2C3E50;
+$orange: #E96B45;
+$brown: #84786f;
+$inputColor: #999;
+$bkg: #fff;
+$bkgMain:#f39c12;
+$bkgSubtle: #F6F1ED;
+$fontColor:#5A5046;
+$fontSubtle:#B8ABA1;
+$radius:4px;
+
+
+body{
+	font-family:Helvetica-neue,Helvetica,serif;
+	color:$fontColor;
+	background: $blue;
+
+}
+
+section:nth-child(even){
+	background:lighten($blue,10%);
+	margin: 30px 0;
+	padding: 20px 0 50px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color:$bkg;
+}
+
+h5, h6 {
+	font-weight: 300;
+}
+
+h2 {
+	margin-bottom: 15px;
+}
+
+.form-control{
+	color: $inputColor;
+}
+
+article{
+	h1, h3, h4, h5, h6{
+		color:$fontColor;	
+	}
+}
+
+@mixin profile(){
+	.banner{
+		background:$brown;
+		height:140px;
+		margin:0;
+		border-radius: $radius $radius 0 0;
+	}
+	.me img{
+			border-radius:50%;
+			border:2px solid $bkgSubtle;
+			padding:4px;
+			width:80px;
+			height:80px;
+		}
+	.about{
+			padding-left:20px;
+		.name{
+			font-size: 25px;
+			margin-bottom: 6px;
+		}
+	}
+	.main-profile{
+		margin-top:20px;
+		display: block;
+	}
+
+	p{
+		font-size:13px;
+	}
+	.data{
+		background:$bkgSubtle;
+		display:block;
+		margin-top: 20px;
+		padding: 10px 20px;
+		color:$fontSubtle;
+		border-radius: 0 0 $radius $radius;
+		.fa{
+			margin-right:7px;
+		}
+		a{
+			color:$fontSubtle;
+			padding: 0% 5%;
+			transition: color 0.4s;
+			&:hover{
+				color:$green-light;
+				cursor:pointer;
+				text-decoration:none;
+				transition: color 0.4s;
+			}
+		}
+	}
+
+}
+
+@mixin general(){
+	.wrapper{
+		p{
+			margin: 0 0 20px;
+		}
+		padding:20px 0 0;
+		background:$bkg;
+		border-radius: $radius;
+		overflow:hidden;
+		& .content{
+			padding:0 20px;
+
+		}
+		& input{
+			margin-bottom:10px;
+		}
+		& footer{
+			padding:20px;
+			background:$bkgSubtle;
+			& span{
+				font-size: 12px;
+			}
+			& .btn{
+				background: $brown;
+				color:$bkg;
+			}
+			& .btn:hover{
+				background: $green-light;
+				transition: background 2s;
+			}
+			& .fa{
+				margin-right: 10px;
+			}
+			& .send-gift{
+				margin: 0px 5px;
+			}
+			& .awesome{
+				display:none;
+				& .fa{
+					margin: 0px 5px;
+					font-size: 17px;
+					color:$green-light;
+				}
+			}
+				
+		}
+	}
+
+}
+
+.user{
+	padding:0;
+	border-radius: $radius;
+	background:$bkg;
+	margin-bottom:20px;
+	@include profile;
+}
+
+.contacts{
+	@include general;
+
+}
+// PSEUDO CLASS SECTION
+
+.pseudo {
+	@include general;
+	.first-letter:first-letter{
+		color: $fontColor;
+		font-size: 39px;
+		padding-right: 7px;
+		float: left;
+		margin: -5px 0 -18px;
+	}
+	.first-line:first-line {
+		font-weight:bold;
+	}
+	.selection {
+		span {
+			font-size: 16px;
+			color:$fontColor;
+		}
+	}
+	p.selection::selection {
+		background: $fontColor;
+		color:$bkg;
+	}
+	p.before:before {
+		content: url("http://lorempixel.com/gray/60/50/nature/");
+		float: left;
+		margin: 4px 10px 0 0;
+		display: block;
+		height: 50px;
+		width: 60px;
+	}
+	ul.before {
+		padding-left: 10px;
+		margin: -13px 0 20px 13px
+	}
+	ul.before li:before {
+		font-family: 'FontAwesome';
+		content: '\f007';
+		margin:0 5px 0 -15px;
+		margin-left: -1.3em;
+		width: 1.3em;
+		padding-right:5px;
+	}
+	.after:after{
+		font-family: 'FontAwesome';
+		content: '\f007';
+		margin-left:5px;
+
+
+
+	}
+
+
+}
+
+
+
+
+
+// MEDIA QUERIES
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){}
+
+@media (max-width: 1199px){
+	.user .name{
+		text-align:center
+	}
+
+	.user .me img {
+		margin:auto;
+		display:block;
+	}
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Extra Small devices (mobiles, 480px and up) */
+@media (min-width: 480px) and (max-width: 767px) {}
+
+/* Extra Small devices (mobiles, 320px and up) */
+@media (min-width: 320px) and (max-width: 479x) {}
+
+
+
+
