@@ -107,60 +107,89 @@ article h1, article h3, article h4, article h5, article h6 {
 }
 
 /* line 108, ../scss/styles.scss */
-.contacts .wrapper {
+.contacts .wrapper, .game .wrapper {
   padding: 20px 0 0;
   background: white;
   border-radius: 4px;
   overflow: hidden;
 }
 /* line 109, ../scss/styles.scss */
-.contacts .wrapper p {
+.contacts .wrapper p, .game .wrapper p {
   margin: 0 0 20px;
 }
 /* line 116, ../scss/styles.scss */
-.contacts .wrapper .content {
+.contacts .wrapper .content, .game .wrapper .content {
   padding: 0 20px;
 }
 /* line 120, ../scss/styles.scss */
-.contacts .wrapper input {
+.contacts .wrapper input, .game .wrapper input {
   margin-bottom: 10px;
 }
 /* line 123, ../scss/styles.scss */
-.contacts .wrapper footer {
+.contacts .wrapper footer, .game .wrapper footer {
   padding: 20px;
   background: #f6f1ed;
 }
 /* line 126, ../scss/styles.scss */
-.contacts .wrapper footer span {
+.contacts .wrapper footer span, .game .wrapper footer span {
   font-size: 12px;
 }
 /* line 129, ../scss/styles.scss */
-.contacts .wrapper footer .btn {
+.contacts .wrapper footer .btn, .game .wrapper footer .btn {
   background: #84786f;
   color: white;
 }
 /* line 133, ../scss/styles.scss */
-.contacts .wrapper footer .btn:hover {
+.contacts .wrapper footer .btn:hover, .game .wrapper footer .btn:hover {
   background: #2ecc71;
   transition: background 2s;
 }
 /* line 137, ../scss/styles.scss */
-.contacts .wrapper footer .fa {
+.contacts .wrapper footer .fa, .game .wrapper footer .fa {
   margin-right: 10px;
 }
 /* line 140, ../scss/styles.scss */
-.contacts .wrapper footer .send-gift {
+.contacts .wrapper footer .send-gift, .game .wrapper footer .send-gift {
   margin: 0px 5px;
 }
 /* line 143, ../scss/styles.scss */
-.contacts .wrapper footer .awesome {
+.contacts .wrapper footer .awesome, .game .wrapper footer .awesome {
   display: none;
 }
 /* line 145, ../scss/styles.scss */
-.contacts .wrapper footer .awesome .fa {
+.contacts .wrapper footer .awesome .fa, .game .wrapper footer .awesome .fa {
   margin: 0px 5px;
   font-size: 17px;
   color: #2ecc71;
+}
+
+/* line 170, ../scss/styles.scss */
+.game {
+  text-align: center;
+}
+/* line 172, ../scss/styles.scss */
+.game .content > div {
+  margin-bottom: 15px;
+}
+/* line 175, ../scss/styles.scss */
+.game .user {
+  margin-top: 10px;
+}
+/* line 178, ../scss/styles.scss */
+.game .me span {
+  color: orange;
+  position: absolute;
+  z-index: 200;
+  display: block;
+  height: 40px;
+  width: 40px;
+  left: 37%;
+  font-size: 31px;
+  top: 35%;
+}
+/* line 189, ../scss/styles.scss */
+.game .message {
+  position: absolute;
 }
 
 /* line 108, ../scss/styles.scss */
@@ -219,7 +248,7 @@ article h1, article h3, article h4, article h5, article h6 {
   font-size: 17px;
   color: #2ecc71;
 }
-/* line 173, ../scss/styles.scss */
+/* line 199, ../scss/styles.scss */
 .pseudo .first-letter:first-letter {
   color: #5a5046;
   font-size: 39px;
@@ -227,21 +256,21 @@ article h1, article h3, article h4, article h5, article h6 {
   float: left;
   margin: -5px 0 -18px;
 }
-/* line 180, ../scss/styles.scss */
+/* line 206, ../scss/styles.scss */
 .pseudo .first-line:first-line {
   font-weight: bold;
 }
-/* line 184, ../scss/styles.scss */
+/* line 210, ../scss/styles.scss */
 .pseudo .selection span {
   font-size: 16px;
   color: #5a5046;
 }
-/* line 189, ../scss/styles.scss */
+/* line 215, ../scss/styles.scss */
 .pseudo p.selection::selection {
   background: #5a5046;
   color: white;
 }
-/* line 193, ../scss/styles.scss */
+/* line 219, ../scss/styles.scss */
 .pseudo p.before:before {
   content: url("http://lorempixel.com/gray/60/50/nature/");
   float: left;
@@ -250,12 +279,12 @@ article h1, article h3, article h4, article h5, article h6 {
   height: 50px;
   width: 60px;
 }
-/* line 201, ../scss/styles.scss */
+/* line 227, ../scss/styles.scss */
 .pseudo ul.before {
   padding-left: 10px;
   margin: -13px 0 20px 13px;
 }
-/* line 205, ../scss/styles.scss */
+/* line 231, ../scss/styles.scss */
 .pseudo ul.before li:before {
   font-family: 'FontAwesome';
   content: '\f007';
@@ -264,7 +293,7 @@ article h1, article h3, article h4, article h5, article h6 {
   width: 1.3em;
   padding-right: 5px;
 }
-/* line 213, ../scss/styles.scss */
+/* line 239, ../scss/styles.scss */
 .pseudo .after:after {
   font-family: 'FontAwesome';
   content: '\f007';
@@ -273,12 +302,12 @@ article h1, article h3, article h4, article h5, article h6 {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (max-width: 1199px) {
-  /* line 235, ../scss/styles.scss */
+  /* line 261, ../scss/styles.scss */
   .user .name {
     text-align: center;
   }
 
-  /* line 239, ../scss/styles.scss */
+  /* line 265, ../scss/styles.scss */
   .user .me img {
     margin: auto;
     display: block;

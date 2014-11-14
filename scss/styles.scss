@@ -162,10 +162,36 @@ article{
 	@include profile;
 }
 
-.contacts{
+.contacts, .game{
 	@include general;
 
 }
+
+.game{
+	text-align:center;
+	 .content > div {
+		margin-bottom: 15px;
+	}
+	.user{
+		margin-top:10px;
+	}
+	.me span{
+		color: orange;
+		position: absolute;
+		z-index: 200;
+		display: block;
+		height: 40px;
+		width: 40px;
+		left: 37%;
+		font-size: 31px;
+		top: 35%;
+	}
+	.message{
+		position: absolute;
+	}
+}
+
+
 // PSEUDO CLASS SECTION
 
 .pseudo {
