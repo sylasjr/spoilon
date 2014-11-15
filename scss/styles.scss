@@ -169,25 +169,54 @@ article{
 
 .game{
 	text-align:center;
-	 .content > div {
+	.content > div {
 		margin-bottom: 15px;
 	}
 	.user{
 		margin-top:10px;
+		.points {
+	      margin: 10px 0 -10px;
+	      color: $brown;
+	      font-size: 8px;
+      		.playerPoint {
+          		color:$green;
+      		}
+        	.compPoint {
+          		color:$orange;
+          	}
+		}
 	}
-	.me span{
-		color: orange;
-		position: absolute;
-		z-index: 200;
-		display: block;
-		height: 40px;
-		width: 40px;
-		left: 37%;
-		font-size: 31px;
-		top: 35%;
+	.me {
+		span {
+			color: $orange;
+			position: absolute;
+			z-index: 200;
+			display: block;
+			left: 37%;
+			font-size: 48px;
+			top: 31%;
+		}
+		.winner {
+			transform: scale(1);
+			z-index: 2;
+			transition: 0.5s;
+		}
+		.player {
+			border-color: $green;
+		}
+		.oponent {
+			border-color: $orange;
+		}
+		.challenge {
+			transition: 0.2s;
+		}
+
+
 	}
 	.message{
 		position: absolute;
+		display: block;
+		text-align: left;
 	}
 }
 
