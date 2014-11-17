@@ -171,6 +171,12 @@ article{
 	text-align:center;
 	.content > div {
 		margin-bottom: 15px;
+			.btn-default {
+				 img {
+				 	width: 24px;
+				 }
+				padding: 6px;
+			}
 	}
 	.user{
 		margin-top:10px;

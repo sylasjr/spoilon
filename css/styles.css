@@ -171,25 +171,33 @@ article h1, article h3, article h4, article h5, article h6 {
 .game .content > div {
   margin-bottom: 15px;
 }
+/* line 174, ../scss/styles.scss */
+.game .content > div .btn-default {
+  padding: 6px;
+}
 /* line 175, ../scss/styles.scss */
+.game .content > div .btn-default img {
+  width: 24px;
+}
+/* line 181, ../scss/styles.scss */
 .game .user {
   margin-top: 10px;
 }
-/* line 177, ../scss/styles.scss */
+/* line 183, ../scss/styles.scss */
 .game .user .points {
   margin: 10px 0 -10px;
   color: #84786f;
   font-size: 8px;
 }
-/* line 181, ../scss/styles.scss */
+/* line 187, ../scss/styles.scss */
 .game .user .points .playerPoint {
   color: #27ae60;
 }
-/* line 184, ../scss/styles.scss */
+/* line 190, ../scss/styles.scss */
 .game .user .points .compPoint {
   color: #e96b45;
 }
-/* line 190, ../scss/styles.scss */
+/* line 196, ../scss/styles.scss */
 .game .me span {
   color: #e96b45;
   position: absolute;
@@ -199,25 +207,25 @@ article h1, article h3, article h4, article h5, article h6 {
   font-size: 48px;
   top: 31%;
 }
-/* line 199, ../scss/styles.scss */
+/* line 205, ../scss/styles.scss */
 .game .me .winner {
   transform: scale(1);
   z-index: 2;
   transition: 0.5s;
 }
-/* line 204, ../scss/styles.scss */
+/* line 210, ../scss/styles.scss */
 .game .me .player {
   border-color: #27ae60;
 }
-/* line 207, ../scss/styles.scss */
+/* line 213, ../scss/styles.scss */
 .game .me .oponent {
   border-color: #e96b45;
 }
-/* line 210, ../scss/styles.scss */
+/* line 216, ../scss/styles.scss */
 .game .me .challenge {
   transition: 0.2s;
 }
-/* line 216, ../scss/styles.scss */
+/* line 222, ../scss/styles.scss */
 .game .message {
   position: absolute;
   display: block;
@@ -280,7 +288,7 @@ article h1, article h3, article h4, article h5, article h6 {
   font-size: 17px;
   color: #2ecc71;
 }
-/* line 228, ../scss/styles.scss */
+/* line 234, ../scss/styles.scss */
 .pseudo .first-letter:first-letter {
   color: #5a5046;
   font-size: 39px;
@@ -288,21 +296,21 @@ article h1, article h3, article h4, article h5, article h6 {
   float: left;
   margin: -5px 0 -18px;
 }
-/* line 235, ../scss/styles.scss */
+/* line 241, ../scss/styles.scss */
 .pseudo .first-line:first-line {
   font-weight: bold;
 }
-/* line 239, ../scss/styles.scss */
+/* line 245, ../scss/styles.scss */
 .pseudo .selection span {
   font-size: 16px;
   color: #5a5046;
 }
-/* line 244, ../scss/styles.scss */
+/* line 250, ../scss/styles.scss */
 .pseudo p.selection::selection {
   background: #5a5046;
   color: white;
 }
-/* line 248, ../scss/styles.scss */
+/* line 254, ../scss/styles.scss */
 .pseudo p.before:before {
   content: url("http://lorempixel.com/gray/60/50/nature/");
   float: left;
@@ -311,12 +319,12 @@ article h1, article h3, article h4, article h5, article h6 {
   height: 50px;
   width: 60px;
 }
-/* line 256, ../scss/styles.scss */
+/* line 262, ../scss/styles.scss */
 .pseudo ul.before {
   padding-left: 10px;
   margin: -13px 0 20px 13px;
 }
-/* line 260, ../scss/styles.scss */
+/* line 266, ../scss/styles.scss */
 .pseudo ul.before li:before {
   font-family: 'FontAwesome';
   content: '\f007';
@@ -325,7 +333,7 @@ article h1, article h3, article h4, article h5, article h6 {
   width: 1.3em;
   padding-right: 5px;
 }
-/* line 268, ../scss/styles.scss */
+/* line 274, ../scss/styles.scss */
 .pseudo .after:after {
   font-family: 'FontAwesome';
   content: '\f007';
@@ -334,12 +342,12 @@ article h1, article h3, article h4, article h5, article h6 {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (max-width: 1199px) {
-  /* line 290, ../scss/styles.scss */
+  /* line 296, ../scss/styles.scss */
   .user .name {
     text-align: center;
   }
 
-  /* line 294, ../scss/styles.scss */
+  /* line 300, ../scss/styles.scss */
   .user .me img {
     margin: auto;
     display: block;
