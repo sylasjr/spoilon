@@ -162,9 +162,8 @@ article{
 	@include profile;
 }
 
-.contacts, .game{
+.contacts, .game, .math-app{
 	@include general;
-
 }
 
 .game{
@@ -223,6 +222,32 @@ article{
 		position: absolute;
 		display: block;
 		text-align: left;
+	}
+}
+
+.math-app {
+	.wrapper {
+		footer {
+			padding: 0 20px;
+			font-size: 57px;
+			text-align: center;
+		}
+		.running {
+			img {
+				margin: 0 auto;
+				width: 50%;
+				display: block;
+			}
+		}
+		.points {
+			text-align: center;
+			span{
+				margin: 25px 0;
+				padding: 0 2px;
+				font-size: 18px;
+
+			}
+		}
 	}
 }
 

@@ -107,97 +107,97 @@ article h1, article h3, article h4, article h5, article h6 {
 }
 
 /* line 108, ../scss/styles.scss */
-.contacts .wrapper, .game .wrapper {
+.contacts .wrapper, .game .wrapper, .math-app .wrapper {
   padding: 20px 0 0;
   background: white;
   border-radius: 4px;
   overflow: hidden;
 }
 /* line 109, ../scss/styles.scss */
-.contacts .wrapper p, .game .wrapper p {
+.contacts .wrapper p, .game .wrapper p, .math-app .wrapper p {
   margin: 0 0 20px;
 }
 /* line 116, ../scss/styles.scss */
-.contacts .wrapper .content, .game .wrapper .content {
+.contacts .wrapper .content, .game .wrapper .content, .math-app .wrapper .content {
   padding: 0 20px;
 }
 /* line 120, ../scss/styles.scss */
-.contacts .wrapper input, .game .wrapper input {
+.contacts .wrapper input, .game .wrapper input, .math-app .wrapper input {
   margin-bottom: 10px;
 }
 /* line 123, ../scss/styles.scss */
-.contacts .wrapper footer, .game .wrapper footer {
+.contacts .wrapper footer, .game .wrapper footer, .math-app .wrapper footer {
   padding: 20px;
   background: #f6f1ed;
 }
 /* line 126, ../scss/styles.scss */
-.contacts .wrapper footer span, .game .wrapper footer span {
+.contacts .wrapper footer span, .game .wrapper footer span, .math-app .wrapper footer span {
   font-size: 12px;
 }
 /* line 129, ../scss/styles.scss */
-.contacts .wrapper footer .btn, .game .wrapper footer .btn {
+.contacts .wrapper footer .btn, .game .wrapper footer .btn, .math-app .wrapper footer .btn {
   background: #84786f;
   color: white;
 }
 /* line 133, ../scss/styles.scss */
-.contacts .wrapper footer .btn:hover, .game .wrapper footer .btn:hover {
+.contacts .wrapper footer .btn:hover, .game .wrapper footer .btn:hover, .math-app .wrapper footer .btn:hover {
   background: #2ecc71;
   transition: background 2s;
 }
 /* line 137, ../scss/styles.scss */
-.contacts .wrapper footer .fa, .game .wrapper footer .fa {
+.contacts .wrapper footer .fa, .game .wrapper footer .fa, .math-app .wrapper footer .fa {
   margin-right: 10px;
 }
 /* line 140, ../scss/styles.scss */
-.contacts .wrapper footer .send-gift, .game .wrapper footer .send-gift {
+.contacts .wrapper footer .send-gift, .game .wrapper footer .send-gift, .math-app .wrapper footer .send-gift {
   margin: 0px 5px;
 }
 /* line 143, ../scss/styles.scss */
-.contacts .wrapper footer .awesome, .game .wrapper footer .awesome {
+.contacts .wrapper footer .awesome, .game .wrapper footer .awesome, .math-app .wrapper footer .awesome {
   display: none;
 }
 /* line 145, ../scss/styles.scss */
-.contacts .wrapper footer .awesome .fa, .game .wrapper footer .awesome .fa {
+.contacts .wrapper footer .awesome .fa, .game .wrapper footer .awesome .fa, .math-app .wrapper footer .awesome .fa {
   margin: 0px 5px;
   font-size: 17px;
   color: #2ecc71;
 }
 
-/* line 170, ../scss/styles.scss */
+/* line 169, ../scss/styles.scss */
 .game {
   text-align: center;
 }
-/* line 172, ../scss/styles.scss */
+/* line 171, ../scss/styles.scss */
 .game .content > div {
   margin-bottom: 15px;
 }
-/* line 174, ../scss/styles.scss */
+/* line 173, ../scss/styles.scss */
 .game .content > div .btn-default {
   padding: 6px;
 }
-/* line 175, ../scss/styles.scss */
+/* line 174, ../scss/styles.scss */
 .game .content > div .btn-default img {
   width: 24px;
 }
-/* line 181, ../scss/styles.scss */
+/* line 180, ../scss/styles.scss */
 .game .user {
   margin-top: 10px;
 }
-/* line 183, ../scss/styles.scss */
+/* line 182, ../scss/styles.scss */
 .game .user .points {
   margin: 10px 0 -10px;
   color: #84786f;
   font-size: 8px;
 }
-/* line 187, ../scss/styles.scss */
+/* line 186, ../scss/styles.scss */
 .game .user .points .playerPoint {
   color: #27ae60;
 }
-/* line 190, ../scss/styles.scss */
+/* line 189, ../scss/styles.scss */
 .game .user .points .compPoint {
   color: #e96b45;
 }
-/* line 196, ../scss/styles.scss */
+/* line 195, ../scss/styles.scss */
 .game .me span {
   color: #e96b45;
   position: absolute;
@@ -207,29 +207,52 @@ article h1, article h3, article h4, article h5, article h6 {
   font-size: 48px;
   top: 31%;
 }
-/* line 205, ../scss/styles.scss */
+/* line 204, ../scss/styles.scss */
 .game .me .winner {
   transform: scale(1);
   z-index: 2;
   transition: 0.5s;
 }
-/* line 210, ../scss/styles.scss */
+/* line 209, ../scss/styles.scss */
 .game .me .player {
   border-color: #27ae60;
 }
-/* line 213, ../scss/styles.scss */
+/* line 212, ../scss/styles.scss */
 .game .me .oponent {
   border-color: #e96b45;
 }
-/* line 216, ../scss/styles.scss */
+/* line 215, ../scss/styles.scss */
 .game .me .challenge {
   transition: 0.2s;
 }
-/* line 222, ../scss/styles.scss */
+/* line 221, ../scss/styles.scss */
 .game .message {
   position: absolute;
   display: block;
   text-align: left;
+}
+
+/* line 230, ../scss/styles.scss */
+.math-app .wrapper footer {
+  padding: 0 20px;
+  font-size: 57px;
+  text-align: center;
+}
+/* line 236, ../scss/styles.scss */
+.math-app .wrapper .running img {
+  margin: 0 auto;
+  width: 50%;
+  display: block;
+}
+/* line 242, ../scss/styles.scss */
+.math-app .wrapper .points {
+  text-align: center;
+}
+/* line 244, ../scss/styles.scss */
+.math-app .wrapper .points span {
+  margin: 25px 0;
+  padding: 0 2px;
+  font-size: 18px;
 }
 
 /* line 108, ../scss/styles.scss */
@@ -288,7 +311,7 @@ article h1, article h3, article h4, article h5, article h6 {
   font-size: 17px;
   color: #2ecc71;
 }
-/* line 234, ../scss/styles.scss */
+/* line 259, ../scss/styles.scss */
 .pseudo .first-letter:first-letter {
   color: #5a5046;
   font-size: 39px;
@@ -296,21 +319,21 @@ article h1, article h3, article h4, article h5, article h6 {
   float: left;
   margin: -5px 0 -18px;
 }
-/* line 241, ../scss/styles.scss */
+/* line 266, ../scss/styles.scss */
 .pseudo .first-line:first-line {
   font-weight: bold;
 }
-/* line 245, ../scss/styles.scss */
+/* line 270, ../scss/styles.scss */
 .pseudo .selection span {
   font-size: 16px;
   color: #5a5046;
 }
-/* line 250, ../scss/styles.scss */
+/* line 275, ../scss/styles.scss */
 .pseudo p.selection::selection {
   background: #5a5046;
   color: white;
 }
-/* line 254, ../scss/styles.scss */
+/* line 279, ../scss/styles.scss */
 .pseudo p.before:before {
   content: url("http://lorempixel.com/gray/60/50/nature/");
   float: left;
@@ -319,12 +342,12 @@ article h1, article h3, article h4, article h5, article h6 {
   height: 50px;
   width: 60px;
 }
-/* line 262, ../scss/styles.scss */
+/* line 287, ../scss/styles.scss */
 .pseudo ul.before {
   padding-left: 10px;
   margin: -13px 0 20px 13px;
 }
-/* line 266, ../scss/styles.scss */
+/* line 291, ../scss/styles.scss */
 .pseudo ul.before li:before {
   font-family: 'FontAwesome';
   content: '\f007';
@@ -333,7 +356,7 @@ article h1, article h3, article h4, article h5, article h6 {
   width: 1.3em;
   padding-right: 5px;
 }
-/* line 274, ../scss/styles.scss */
+/* line 299, ../scss/styles.scss */
 .pseudo .after:after {
   font-family: 'FontAwesome';
   content: '\f007';
@@ -342,12 +365,12 @@ article h1, article h3, article h4, article h5, article h6 {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (max-width: 1199px) {
-  /* line 296, ../scss/styles.scss */
+  /* line 321, ../scss/styles.scss */
   .user .name {
     text-align: center;
   }
 
-  /* line 300, ../scss/styles.scss */
+  /* line 325, ../scss/styles.scss */
   .user .me img {
     margin: auto;
     display: block;

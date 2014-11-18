@@ -120,18 +120,20 @@ $( document ).ready(function() {
 
       $('.computer img').css('opacity','1');
       $('.computer .me span').addClass('hidden');
-
-
-
-
-
-
-
-
     });
 
+      for(var i = 1; i <= 10; i++) {
+        $(".math-app .points").append('<span class="fa fa-circle-o animated"></span>');
+      }
 
+      $('.points span:first').removeClass("fa-circle-o").addClass("fa-circle");
 
+      $(".points span").each( function(e) {
+    var element = jQuery(this);
+    setTimeout(function () {
+        jQuery(element).addClass('fadeInLeft');
+    }, e*50);
+});
 
 });
 
